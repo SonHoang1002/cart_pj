@@ -10,10 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author trinh
- */
+
 @WebServlet(name = "SubControl", urlPatterns = {"/sub"})
 public class SubCart extends HttpServlet {
 
@@ -31,6 +28,7 @@ public class SubCart extends HttpServlet {
                 response.addCookie(o);
             }
         }
+
         String ids[] = txt.split(",");
         String txtOutPut = "";
         int check = 0;
@@ -53,7 +51,7 @@ public class SubCart extends HttpServlet {
             c.setMaxAge(60 * 60 * 24);
             response.addCookie(c);
         }
-        response.sendRedirect("/cart");
+        response.sendRedirect("Cart.jsp");
 
     }
 
@@ -72,7 +70,7 @@ public class SubCart extends HttpServlet {
 
     @Override
     public String getServletInfo() {
-        return "Short description";
+        return "abc";
     }
 
 }

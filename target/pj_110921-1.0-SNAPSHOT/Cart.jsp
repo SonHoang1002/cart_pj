@@ -55,7 +55,8 @@
                                         </th>
                                         <td class="align-middle"><strong>${o.price}</strong></td>
                                         <td class="align-middle">
-                                            <a href="sub?id=${o.id}"><button class="btnSub">-</button></a> <strong>${o.amount}</strong>
+                                            <a href="sub?id=${o.id}"><button class="btnSub">-</button></a>
+                                            <strong>${o.amount}</strong>
                                             <a href="cart?id=${o.id}"><button class="btnAdd">+</button></a>
                                         </td>
                                         <td class="align-middle"><a href="remove?id=${o.id}" class="text-dark">

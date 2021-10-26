@@ -137,12 +137,8 @@
                                 <p style="font-size: 20px; color: red;" class="money">${o.price} VNĐ</p>
                             </div>
                             <div class="all-button" style="margin-top: 20px;"><hr>
-
                                 <a href="cart?id=${o.id}"   type="submit" class="btn button-1 btn-success btn-cart" style="margin-right: 15px;min-width: 100px;">Add to cart</a>
                                 <button  type="button" class="btn  btn-success" style="float: right;min-width: 100px;">Order</button>
-
-
-
                             </div>
                         </div>
                     </div>
